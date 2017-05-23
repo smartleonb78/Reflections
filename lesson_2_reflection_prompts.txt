@@ -2,8 +2,16 @@ What happens when you initialize a repository? Why do you need to do it?
 
 It creates a new respsitory in git. Command: Git init, use ls -a and look for .git folder. the . means its a hidden file/folder
 
+init - create a repository
+add - add files to the staging area
+status - display the status of the repository
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+The staging area allows you to place files in this area before you commit them to the repository. As a result when u add  files 
+in this area, when commiting all files in the staging area will be pace in the repository. So its FROM working directory to the stating area (ie the area where files are place before comitting
+)
+The value it offers is that u dont have to commit each file seperately 
 
 How can you use the staging area to make sure you have one commit per logical
 change?
